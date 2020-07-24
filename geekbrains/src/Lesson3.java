@@ -36,7 +36,7 @@ public class Lesson3 {
             }
             trying = 3;
             System.out.println("========================================");
-            System.out.println("Повторить игру еще раз? 1 - да / 0 - нет");
+            System.out.println("Повторить игру еще раз? 1 - да / 0 - нет.");
             condition = scanner();
         }while (condition == 1);
         System.out.println("Спасибо за игру!");
