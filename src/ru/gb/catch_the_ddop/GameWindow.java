@@ -17,7 +17,7 @@ public class GameWindow extends JFrame {
         background = ImageIO.read(GameWindow.class.getResourceAsStream("background.png"));/* Добавляем
         *возможность читать изображения */
         gameWindow = new GameWindow();
-        gameWindow.setTitle("Catch The Drop");
+        gameWindow.setTitle("Catch The Drop!");
         gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);//При закрытии окна, программа завершится
         gameWindow.setLocation(500, 300); // изначальное размещение окна при запуске
         gameWindow.setSize(906, 478); //размер окна
