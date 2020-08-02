@@ -14,7 +14,8 @@ public class GameWindow extends JFrame {
     private static Image game_over;
 
     public static void main(String[] args) throws IOException {
-        background = ImageIO.read(GameWindow.class.getResourceAsStream("background.png"));
+        background = ImageIO.read(GameWindow.class.getResourceAsStream("background.png"));/* Добавляем
+        *возможность читать изображения */
         gameWindow = new GameWindow();
         gameWindow.setTitle("Catch The Drop");
         gameWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);//При закрытии окна, программа завершится
